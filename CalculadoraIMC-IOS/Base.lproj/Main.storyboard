@@ -25,7 +25,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Altura:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgq-4Y-0My">
-                                                <rect key="frame" x="19" y="-12" width="142" height="41"/>
+                                                <rect key="frame" x="19" y="8" width="99" height="41"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -52,7 +52,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Peso:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URM-IO-c9S">
-                                                <rect key="frame" x="19" y="0.0" width="114" height="29"/>
+                                                <rect key="frame" x="19" y="0.0" width="105" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -86,7 +86,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhD-Ei-lcy" userLabel="descriptionLabel">
-                                                <rect key="frame" x="0.0" y="122" width="414" height="82"/>
+                                                <rect key="frame" x="8" y="77" width="414" height="82"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cvo-8a-sHH" userLabel="EstadoLabel">
+                                                <rect key="frame" x="8" y="167" width="414" height="82"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <nil key="textColor"/>
@@ -112,6 +119,7 @@
                     <connections>
                         <outlet property="IMCLabel" destination="VcI-pe-9yF" id="g3F-9Q-o6a"/>
                         <outlet property="descripcionLabel" destination="AhD-Ei-lcy" id="6DH-zd-Nzo"/>
+                        <outlet property="estadoLabel" destination="cvo-8a-sHH" id="3Kr-st-vMu"/>
                         <outlet property="heightLabel" destination="4sZ-wZ-drp" id="Ez7-Mv-i9t"/>
                         <outlet property="heightStepper" destination="Hzt-J2-4Hp" id="iQN-YF-JpS"/>
                         <outlet property="weightLabel" destination="pTX-fy-hiQ" id="NqA-lF-cNd"/>
